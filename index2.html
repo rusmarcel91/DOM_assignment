@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assigment</title>
+
+    <script src="https://kit.fontawesome.com/9e8cee8c69.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        #login-container {
+            width: 460px;
+            margin: 0 auto;
+        }
+
+        form label,
+        form input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        form input {
+            padding: 8px;
+
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form div {
+            margin: 16px 0px;
+        }
+
+        i {
+
+
+            position: absolute;
+            padding-top: 20px;
+            margin-left: 420px;
+
+
+        }
+
+        .fa-check {
+            display: none;
+        }
+
+        .fa-xmark {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="login-container">
+
+        <form>
+
+            <div>
+                <i class="fa-solid fa-check fa-2x " style="color: green"></i>
+                <i class="fa-solid fa-xmark fa-2x " style="color: red"></i>
+                <label for="username">Username:</label>
+                <input id="username" type="text">
+
+            </div>
+
+            <div>
+                <i class="fa-solid fa-check fa-2x " style="color: green"></i>
+                <i class="fa-solid fa-xmark fa-2x " style="color: red"></i>
+                <label for="password">Password:</label>
+                <input id="password" type="password">
+
+            </div>
+
+            <input type="submit" value="Login">
+        </form>
+
+    </div>
+
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/js.js"></script>
+    
+
+
+
+
+
+</body>
+
+</html>
